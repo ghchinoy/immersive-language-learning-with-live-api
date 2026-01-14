@@ -39,6 +39,7 @@ gcloud run deploy $SERVICE_NAME \
   --network default \
   --subnet default \
   --session-affinity \
+  --clear-base-image \
   --set-env-vars PROJECT_ID=$PROJECT_ID  \
   --set-env-vars LOCATION=$REGION \
   --set-env-vars MODEL=$MODEL \
