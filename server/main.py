@@ -18,6 +18,8 @@ from server.recaptcha_validator import RecaptchaValidator
 from server.gemini_live import GeminiLive
 from server.fingerprint import generate_fingerprint
 from server.simple_tracker import simpletrack
+from server.config_utils import get_project_id
+
 
 # Rate Limiting
 from slowapi import Limiter, _rate_limit_exceeded_handler
@@ -33,8 +35,9 @@ load_dotenv(override=True)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
 # Configuration
-PROJECT_ID = os.getenv("PROJECT_ID", "your-project-id")
+PROJECT_ID = get_project_id()
 LOCATION = os.getenv("LOCATION", "us-central1")
 MODEL = os.getenv("MODEL", "gemini-live-2.5-flash-native-audio")
 # Use a very long timeout for dev
