@@ -15,6 +15,11 @@ class GeminiLive:
         self.location = location
         self.model = model
         self.input_sample_rate = input_sample_rate
+        print("🚀 GeminiLive initialized with:")
+        print(f"  Project ID: {project_id}")
+        print(f"  Location: {location}")
+        print(f"  Model: {model}")
+        print(f"  Input Sample Rate: {input_sample_rate}")
         
         # Initialize client
         self.client = genai.Client(vertexai=True, project=project_id, location=location)
