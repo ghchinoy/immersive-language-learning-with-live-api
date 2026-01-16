@@ -19,8 +19,12 @@ Launch your own private instance of Immergo to Google Cloud in just one click. N
 
 Immergo is an interactive language learning application powered by the **Google Gemini Live SDK**. It simulates real-world roleplay scenarios (e.g., buying a bus ticket, ordering coffee) to help users practice speaking in various languages with an AI that adopts perfectly reactive personas.
 
+<div align="center">
+  <img src="assets/1.png" alt="Immergo App Screenshot 1" width="30%">
+  <img src="assets/2.png" alt="Immergo App Screenshot 2" width="30%">
+  <img src="assets/3.png" alt="Immergo App Screenshot 3" width="30%">
+</div>
 
-![Immergo Screenshot](screenshot.png)
 
 ## Features
 
