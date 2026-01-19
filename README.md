@@ -112,7 +112,7 @@ To serve the built frontend via the Python server:
 The fastest way to get Immergo running in production is using Google Cloud Run:
 
 1.  **Click the button below**:
-    [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/ZackAkil/immersive-language-learning-with-live-api)
+    [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 2.  **Follow the prompts** in the Google Cloud Shell to authorize and deploy.
 
 ### 🛠 Manual Deployment (via `deploy.sh`)
@@ -165,7 +165,7 @@ Instead of writing boilerplate, just describe the feature you want.
 
 ### 3. Iterate via Live Preview
 
-Use the `./dev.sh` hot-reloading server. As Antigravity writes the code, you'll see the UI update instantly. Tell it to _"make the buttons more glassmorphic"_ or _"shift the layout down for better balance"_ until it feels just right.
+Use the `./scripts/dev.sh` hot-reloading server. As Antigravity writes the code, you'll see the UI update instantly. Tell it to _"make the buttons more glassmorphic"_ or _"shift the layout down for better balance"_ until it feels just right.
 
 ### 4. Deploy Your Build
 
