@@ -31,7 +31,9 @@ __pycache__/
 venv/
 .venv/
 env/
-# .env
-git-crypt-key
+# Local configuration
+.env
+scripts/deploy.sh
+deploy.sh
 .pytest_cache/
 

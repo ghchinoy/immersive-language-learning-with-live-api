@@ -1,2 +1,1 @@
-.env filter=git-crypt diff=git-crypt
-deploy.sh filter=git-crypt diff=git-crypt
+

@@ -117,7 +117,17 @@ The fastest way to get Immergo running in production is using Google Cloud Run:
 
 ### 🛠 Manual Deployment (via `deploy.sh`)
 
-If you prefer to deploy from your terminal, you can use the provided `scripts/deploy.sh` script:
+If you prefer to deploy from your terminal, first create your own deployment script from the example:
+
+```bash
+cp scripts/example.deploy.sh scripts/deploy.sh
+```
+
+Edit `scripts/deploy.sh` with your project details, then run:
+
+```bash
+./scripts/deploy.sh
+```
 
 ### Advanced Configuration
 
