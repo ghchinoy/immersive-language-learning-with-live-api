@@ -7,14 +7,6 @@
 
 ### **[🚀 Try the Demo at immergo.app](https://immergo.app/)**
 
----
-
-## Video Walkthrough
-
-## [![Immergo Walkthrough](http://img.youtube.com/vi/cdATDhw66pk/0.jpg)](http://www.youtube.com/watch?v=cdATDhw66pk)
-
----
-
 ## ⚡️ Quick Deployment
 
 Launch your own private instance of Immergo to Google Cloud in just one click. No local setup required.
@@ -54,6 +46,11 @@ Immergo is an interactive language learning application powered by the **Google 
 - Python (v3.10+)
 - Google Cloud Project with Vertex AI enabled.
 - Google Cloud Application Default Credentials configured.
+
+## Video Walkthrough
+
+# [![Immergo Walkthrough](http://img.youtube.com/vi/cdATDhw66pk/0.jpg)](http://www.youtube.com/watch?v=cdATDhw66pk)
+
 
 ## Setup
 
