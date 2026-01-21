@@ -51,6 +51,19 @@ Missions are defined in `src/data/missions.json`. Each mission includes:
 - **Frontend**: Use Vanilla JS with Web Components. Avoid adding external UI frameworks (React, Vue, etc.) unless explicitly requested. Use standard CSS variables defined in `style.css`.
 - **Backend**: Use `async`/`await` for all I/O bound operations. Follow FastAPI best practices.
 - **Naming**: Use camelCase for JavaScript and snake_case for Python.
+- **Mobile Safety**: When styling absolute/fixed headers or containers, always account for device notches using `env(safe-area-inset-*)` (e.g., `padding-top: calc(var(--spacing-md) + env(safe-area-inset-top))`).
+- **Commits**: Use **Conventional Commits** (e.g., `feat:`, `fix:`, `docs:`) for all repository contributions.
+
+### UI Patterns
+- **HUD & Pills**: For system labels or status indicators, use low-opacity backgrounds (`rgba(0,0,0,0.04)`), full rounding (`var(--radius-full)`), and bold, small uppercase text (`font-size: 0.75rem`, `letter-spacing: 0.05em`).
+- **Glassmorphism**: Use the project's glass panel style for overlays: `backdrop-filter: blur(20px); border: var(--glass-border);`.
+
+### Gemini Live Prompting
+Standardize the structure of `systemInstruction` in `view-chat.js`:
+1.  **ROLEPLAY INSTRUCTION**: Define the AI's persona, the user's role, and the scenario.
+2.  **INTERACTION GUIDELINES**: Define behavior constraints (e.g., teaching protocols, proactivity, or strictness).
+3.  **MISSION COMPLETION**: Explicitly define the trigger for the `complete_mission` tool, including scoring criteria and feedback requirements.
+
 
 ### Environment Setup
 - Backend runs on port `8000`.
