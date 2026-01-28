@@ -5,7 +5,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Gemini Live API](https://img.shields.io/badge/Google%20Gemini%20Live%20API-8E75B2?style=flat&logo=google&logoColor=white)](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/live-api)
 
-### **[🚀 Try the Demo at immergo.app](https://immergo.app/)**
+### **[🚀 Try the Demo at immersive-language-learning.app](https://immersive-language-learning.app/)**
 
 ## ⚡️ Quick Deployment
 
